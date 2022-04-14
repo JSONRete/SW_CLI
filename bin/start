@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "../environment"
+
+
+StarWarsPlanetsCli::CLI.new.call
+
+# print "testing"
+# puts "not"
