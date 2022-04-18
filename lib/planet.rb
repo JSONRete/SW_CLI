@@ -14,9 +14,11 @@ class Planet
         @@all
     end
 
-def self.find_by_name(name)
-        self.all.select do |planet|
-        planet.name.downcase == name
-        end
-    end
+# def self.find_by_name(name)
+#         self.all.select do |planet|
+#         planet.name.downcase == name
+#         end
+#     end
+
+
 end
